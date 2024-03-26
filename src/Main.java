@@ -25,14 +25,14 @@ public class Main {
     * na tela. A lógica da função compara os valores afim de identificar o maior deles e armazenar em
     * uma variável chamada "aux". A função por sua vez retorna o valor de "aux" */
     public static int max(int x, int y, int z) {
-       int aux;
-        if (x > y && x > z ) {
-           aux = x;
-       } else if (y > z) {
-           aux = y;
-       } else {
-           aux = z;
-       }
+        int aux;
+        if (x > y && x > z) {
+            aux = x;
+        } else if (y > z) {
+            aux = y;
+        } else {
+            aux = z;
+        }
         return aux;
     }
 
